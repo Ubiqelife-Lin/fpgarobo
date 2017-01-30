@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="fpgarobo" name="fpgarobo_node" type="fpgarobo_node.py"/>
+    <node pkg="fpgarobo" name="test_node" type="test_node.py"/>
+</launch>
