@@ -84,10 +84,6 @@ class Fpgarobo(object):
 		self.input_dir_in_left =  1
 		self.write2motor()
 
-
-
-
-
 	def fpgarobo(self):
 		print "start fpgarobo_node"
 		rospy.init_node('fpgarobo_node', anonymous=True)
